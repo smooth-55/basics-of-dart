@@ -22,4 +22,9 @@ void main() {
 
   dynamic_var = false;
   print('Dynamic value after ${dynamic_var}');
+
+  var item = "This is variable";
+  print(item);
+  const item2 = "This is constant";
+  print(item2);
 }
